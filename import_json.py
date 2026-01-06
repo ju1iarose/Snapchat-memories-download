@@ -11,8 +11,8 @@ from datetime import datetime
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # CHANGE THESE TO CORRECT PATH
-JSON_FILE = os.path.join(SCRIPT_DIR, r"C:\Users\julia\Downloads\snapdown\memories_history.json")
-OUTPUT_DIR = os.path.join(SCRIPT_DIR, r"C:\Users\julia\Downloads\snapdown\dsnap")
+JSON_FILE = os.path.join(SCRIPT_DIR, r"C:\Your\Path\Here\memories_history.json")
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, r"C:\Your\Path\Here\folder")
 #
 
 CHUNK_SIZE = 1024 * 1024 
@@ -100,3 +100,4 @@ for idx, item in enumerate(data, start=1):
 
 
 print(f"\nFinished: {completed} files downloaded, {skipped} files skipped")
+
